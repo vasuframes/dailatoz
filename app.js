@@ -54,7 +54,7 @@ const imageUpload = multer({
 });
 
 router.get('/', function(req, res) {
-    res.json({ message: 'welcome to journal api - heroku setup' });
+    res.json({ message: 'welcome to journal api - heroku setup abc' });
 });
 
 /**   Products services */
