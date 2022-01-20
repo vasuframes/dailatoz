@@ -8,10 +8,10 @@ const { validate, Joi } = require('express-validation');
 
 
 var con = mysql.createConnection({
-	host: "127.0.0.1",
-	user: "root",
-	password: "",
-	database: "journals"
+	host: "ec2-44-199-52-133.compute-1.amazonaws.com",
+	user: "irnvneypganhgz",
+	password: "b59d7c3871ab58c2d38570d73867ae1c4fbc061fe1889a432af02e61563dc085",
+	database: "dalk0p6pr2f9ib"
 });
   
 con.connect(function(err) {
